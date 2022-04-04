@@ -10,8 +10,7 @@ class PageController extends Controller
 
     public function index()
     {
-        $data = "data";
-        return view('thisview')->compact('data');
+        return view('pages.index');
     }
 
     public function product($product)
