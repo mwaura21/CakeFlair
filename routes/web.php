@@ -22,5 +22,5 @@ Route::get('/products/{product}', [PageController::class, 'product'])->name('pro
 
 Route::get('/contacts', [PageController::class, 'contact'])->name('contacts'); 
 
-
+ 
 Route::resource('product', ProductController::class);
